@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <link href="imageGallery.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+
+  <h1>Interactive Image Gallery </h1>
+
+  <ul class="gallery">
+    <li class="gallery-item">
+      <img src="./images/gallery/beach01.jpg"/>
+      <p class="caption">Tioman Beach</p>    
+    </li>
+    
+    <li class="gallery-item">
+      <img src="images/gallery/beach02.jpg"/>
+      <p class="caption">Perhentian Beach</p>
+    </li>
+    
+    <li class="gallery-item">
+      <img src="images/gallery/beach03.jpg"/>
+      <p class="caption">Malacca Beach</p>
+    </li>
+  
+  </ul>
+
+  <div class="lightbox hidden">
+    
+  <div class="lightbox-content">
+    <div class="lightbox-controls">
+    <a href="#" class="lightbox-close">Close</a>
+    <a href="#" class="lightbox-prev">Previous</a>
+    <a href="#" class="lightbox-next">Next</a>
+    </div>
+
+    <div class="lightbox-image">
+    <img src="./images/gallery/beach03.jpg">
+      <p class="caption">Malacca Beach</p>
+    </div>
+    <script type="text/javascript" src="Gallery.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(16, 204, 100);
+}
+
+h1 {
+	
+}
+
+#board {
+	display: inline-block;
+	box-align:center;
+
+}
+
+#board div {
+ width: 130px;
+ height: 130px;
+ box-sizing: border-box;    
+ border: 2px solid black;
+ border-radius: 15px;
+ display: inline-block;
+ margin: 2px;
+
+ text-align: center;
+ line-height: 120px;
+ vertical-align: middle;
+
+float: left;
+}
+
+
+#board div:nth-child(3n+1) {
+  clear: left;
+}
+
+
+#button {
+  vertical-align: middle;
+/*  position: fixed;*/
+  clear: left;
+}
+
+
+
+
+
+
+

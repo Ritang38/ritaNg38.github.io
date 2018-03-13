@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Guessing Game</title>
+  <link href="wordg.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+
+  <h1>Word Guessing Game </h1>
+
+  <h2>Word State</h2>
+  <p id="word">b_n_n_s</p>
+
+  <h2>Guessed Alphabets</h2>
+  <ul id="past-guess">
+    <li>b</li>
+    <li>n</li>
+    <li>n</li>
+    <li>s</li>
+  </ul>
+
+  <h2>Guess</h2>
+  <p>You have 7 guessed left<span id="guesses-left"></span></p>
+
+  <form id="player-input">
+    <input id="player-guess" type="text"/>
+    <input type="submit"/>
+   </form>
+
+    <script src="./wordg.js"></script>
+  </body>
+
+</html>
